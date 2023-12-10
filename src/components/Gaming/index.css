@@ -1,0 +1,94 @@
+.gaming-page-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+.gaming-dark-bg {
+  background-color: #0f0f0f;
+}
+.gaming-page-main-container {
+  display: flex;
+}
+.gaming-options-container {
+  display: flex;
+  width: 20%;
+  min-height: 85vh;
+}
+@media screen and (max-width: 767px) {
+  .gaming-options-container {
+    display: none;
+  }
+}
+.gp-main-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+@media screen and (max-width: 767px) {
+  .gp-main-container {
+    width: 100%;
+  }
+}
+.gp-gaming-icon-head-container {
+  display: flex;
+  padding: 40px;
+  background-color: #ebebeb;
+}
+@media screen and (max-width: 576px) {
+  .gp-gaming-icon-head-container {
+    padding: 10px;
+    margin-top: 20px;
+  }
+}
+.gp-gaming-icon-head-container-dark-bg {
+  background-color: #181818;
+}
+.gp-gaming-icon-btn {
+  border-radius: 80px;
+  width: 80px;
+  height: 80px;
+  border: 0px;
+  background-color: #cbd5e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.gp-gaming-icon-dark-btn {
+  background-color: #000000;
+}
+.gp-gaming-icon {
+  width: 30px;
+  height: 30px;
+  color: #ff0000;
+}
+.gp-gaming-head {
+  color: #181818;
+  font-weight: bold;
+  font-size: 26px;
+  font-family: 'Roboto';
+  display: flex;
+  align-items: center;
+}
+.gp-gaming-head-dark {
+  color: #ffffff;
+}
+.gp-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  width: 100%;
+}
+.gp-sucess-containerr {
+  display: flex;
+  flex-direction: column;
+}
+.gp-videoss-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 30px;
+}

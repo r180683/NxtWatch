@@ -1,0 +1,30 @@
+.nf-page-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+.nf-dark-bg {
+  background-color: #0f0f0f;
+}
+.nf-page-main-container {
+  display: flex;
+}
+.nf-options-container {
+  display: flex;
+  width: 20%;
+  min-height: 85vh;
+}
+.not-found-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 80%;
+}
+.nf-image {
+  width: 400px;
+  height: 300px;
+}

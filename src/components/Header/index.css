@@ -1,0 +1,149 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+  max-height: 15vh;
+}
+@media screen and (max-width: 767px) {
+  .header-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100vw;
+  }
+}
+.header-container-dark-bg {
+  background-color: #212121;
+}
+.header-website-logo {
+  width: 120px;
+  height: 35px;
+}
+@media screen and (max-width: 767px) {
+  .header-website-logo {
+    width: 100px;
+    height: 30px;
+  }
+}
+.header-items-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+.header-item-container {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .header-item-container {
+    margin-right: 20px;
+  }
+}
+.header-item-btn-container {
+  border: 0px;
+  height: 35px;
+  width: 35px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.header-icon {
+  width: 30px;
+  height: 30px;
+}
+@media screen and (max-width: 767px) {
+  .header-icon {
+    width: 25px;
+    height: 25px;
+  }
+}
+.header-item-profile {
+  width: 35px;
+  height: 35px;
+}
+@media screen and (max-width: 767px) {
+  .header-item-profile {
+    display: none;
+  }
+}
+.header-logout-btn {
+  background-color: transparent;
+  color: #3b82f6;
+  border: 2px solid #3b82f6;
+  width: 90px;
+  height: 35px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 16px;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .header-logout-btn {
+    display: none;
+  }
+}
+.logout-bnt-white-color {
+  color: #f9f9f9;
+  border: 2px solid #f9f9f9;
+}
+.header-menu-desktop {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .header-menu-desktop {
+    display: flex;
+    color: #231f20;
+  }
+}
+.header-icon-white-color {
+  color: #f9f9f9;
+}
+.popup-menu-contenttt {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+}
+.popup-content {
+  width: 300px;
+  border-radius: 16px;
+  border: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+}
+.popup-content-dark-bg {
+  background-color: #0f0f0f;
+  width: 400px;
+}
+.pop-up-menu-btn {
+  border: 0px;
+  background-color: transparent;
+}
+.pop-up-menu-drop-down {
+  display: flex;
+}
+.pop-up-drop-down-menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 0px;
+}
+.pop-up-box-menu-cancel-icon {
+  width: 40px;
+  height: 40px;
+}
+.pop-up-menu-dark-bg {
+  background-color: #212121;
+}
+.pop-up-logout-cont {
+  padding: 20px;
+}

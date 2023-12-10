@@ -1,0 +1,40 @@
+.hpp-options-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 75vh;
+}
+.hpp-options-list-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0px;
+}
+.hpp-option-link-container {
+  text-decoration: none;
+  display: flex;
+}
+.hpp-option-icon {
+  width: 26px;
+  height: 26px;
+}
+
+.hpp-reachout-container {
+  display: flex;
+  padding-left: 20px;
+  flex-direction: column;
+}
+.hpp-reachout-icons-container {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  padding: 0px;
+}
+.header-reachout-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+.hpp-optionss-dark-bgg {
+  background-color: #212121;
+}

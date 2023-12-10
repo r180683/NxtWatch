@@ -1,0 +1,228 @@
+.vid-page-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+.vid-dark-bg {
+  background-color: #0f0f0f;
+}
+.vid-page-main-container {
+  display: flex;
+}
+.vid-options-container {
+  display: flex;
+  width: 20%;
+  min-height: 85vh;
+}
+@media screen and (max-width: 767px) {
+  .vid-options-container {
+    display: none;
+  }
+}
+.video-items-details-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.loader-container {
+  display: flex;
+  min-height: 50vh;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.vid-containerr {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+@media screen and (max-width: 767px) {
+  .vid-containerr {
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+.video-items-details-video-container {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .video-items-details-video-container {
+    width: 100%;
+    padding: 0px;
+  }
+}
+.video-items-details-video {
+  height: 500px;
+}
+@media screen and (max-width: 767px) {
+  .video-items-details-video {
+    height: 200px;
+  }
+}
+.vid-video-full-details-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+@media screen and (max-width: 767px) {
+  .vid-video-full-details-container {
+    padding: 20px;
+  }
+}
+
+.vid-title {
+  color: #212121;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.vidd-options-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+@media screen and (max-width: 767px) {
+  .vidd-options-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+.vid-options-views-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 767px) {
+  .vid-options-views-container {
+    margin-bottom: 8px;
+  }
+}
+.vid-options-view-head {
+  color: #64748b;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+.vid-options-save-bttnn {
+  color: #64748b;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Roboto';
+  border: 0px;
+  padding: 0px;
+  height: 10px;
+  background-color: transparent;
+}
+.vid-options-dot-icon {
+  color: #7e858e;
+  width: 25px;
+  margin-bottom: 10px;
+  height: 25px;
+}
+.vid-video-options-container {
+  display: flex;
+  justify-content: center;
+}
+.vid-like-btn-container {
+  display: flex;
+  border: 0px;
+  cursor: pointer;
+  color: #64748b;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  background-color: transparent;
+}
+.vid-like-save-container {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  .vid-like-save-container {
+    justify-content: flex-start;
+  }
+}
+.vid-likes-container {
+  display: flex;
+  margin-right: 30px;
+}
+.vid-like-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.vid-hr-line {
+  width: 100%;
+  color: #7e858e;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.vid-channel-subs-container {
+  display: flex;
+  margin-left: 0px;
+}
+.vid-profile-img {
+  width: 60px;
+  height: 60px;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.vid-channel-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.vid-channel-namee {
+  color: #231f20;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: 'Roboto';
+}
+.vid-channel-subs {
+  color: #7e858e;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.vid-channel-descriptionn {
+  color: #7e858e;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+  .vid-channel-descriptionn {
+    display: none;
+  }
+}
+.vid-mobile-channel-descriptionn {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .vid-mobile-channel-descriptionn {
+    display: flex;
+    color: #7e858e;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Roboto';
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+  }
+}
+.vid-title-dark {
+  color: #ebebeb;
+}
